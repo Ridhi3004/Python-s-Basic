@@ -50,3 +50,44 @@ while i<=100:
      i+=1
 print("-----------")
 
+# The square of numbers from 1 to 10.
+for i in range(1,11):
+     print(f"{i}- {i*i}")
+
+i=1
+while i<=10:
+     print(f"{i}-{i*i}")
+     i+=1
+print("-----------")
+
+# Find the factorial of a number using for loop
+num=int(input("Enter the number:"))
+fact=1
+for i in range(1,num+1):
+     fact=fact*i
+print("Factorial of num is:",fact)
+print("-----------")
+
+
+
+# Print the Fibonacci series up to n terms.
+num=int(input("Enter number of terms:"))
+a,b=0,1
+print("Fibonacci Series")
+for i in range (num):
+    print(a)
+    a,b=b,a+b
+print("-----------")
+
+
+
+# Print the sum of the first n natural numbers.
+num=int(input("Enter number of terms:"))
+s=0
+for x in range(1,num+1):
+    s+=x
+print(s)
+print("-----------")
+
+
+
